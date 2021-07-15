@@ -41,7 +41,6 @@ axes:
         step: gpio.12
     gang1:
       null_motor:
-      endstops:
 
   y:
     steps_per_mm: 800

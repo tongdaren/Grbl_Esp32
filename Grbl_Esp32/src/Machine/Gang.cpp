@@ -31,7 +31,7 @@ namespace Machine {
             _motor = new Motors::Nullmotor();
         }
         if (_endstops == nullptr) {
-            _endstops == new Endstops();
+            _endstops = new Endstops();
         }
     }
 

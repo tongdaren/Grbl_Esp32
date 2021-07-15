@@ -31,7 +31,7 @@ namespace Machine {
                 _gangs[i] = new Gang();
             }
             if (_endstops == nullptr) {
-                _endstops == new Endstops();
+                _endstops = new Endstops();
             }
         }
     }
